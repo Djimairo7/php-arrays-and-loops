@@ -9,8 +9,9 @@ foreach($jerrican as $key ) {
  foreach ($key as $cb => $c) {
      echo "$cb  $c<br>";
  }
+ echo "ik ga ff tellen ";
     for ($i = 64; $i <= 74; $i+= 2){
-        echo $i;
+        echo $i . ", ";
     }
  echo "<hr>";
 }
